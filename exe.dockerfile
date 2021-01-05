@@ -1,6 +1,6 @@
 ARG FROM_SRC_ROS1=ghcr.io/autocore-ai/src-ros1:latest
 ARG FROM_SRC_ROS2=ghcr.io/autocore-ai/src-ros2:latest
-ARG FROM_DEVEL=autocore/ats-devel
+ARG FROM_DEVEL=autocore/ats-devel:dev
 
 FROM ${FROM_SRC_ROS1} as src_ros1
 FROM ${FROM_SRC_ROS2} as src_ros2
