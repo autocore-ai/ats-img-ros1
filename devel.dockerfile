@@ -102,4 +102,4 @@ RUN apt-get update \
     ros-eloquent-ros-testing \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone -b eloquent --depth 1 https://github.com/ros2/ros1_bridge.git /ros1_bridge
+RUN git clone -b foxy --depth 1 https://github.com/ros2/ros1_bridge.git /ros1_bridge
